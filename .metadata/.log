@@ -1275,3 +1275,18 @@ java.net.URISyntaxException: Illegal character in path at index 35: file:/C:/Use
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 21:43:54.247
 !MESSAGE executing callback sts4.classpath.oPrVcubF SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 21:44:46.158
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 21:44:46.172
+!MESSAGE classpath=73 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 21:44:46.177
+!MESSAGE buffering callback sts4.classpath.oPrVcubF ResourceServer false 73
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 21:44:46.178
+!MESSAGE executing callback sts4.classpath.oPrVcubF 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-15 21:44:46.206
+!MESSAGE executing callback sts4.classpath.oPrVcubF SUCCESS [done]
