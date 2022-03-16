@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
