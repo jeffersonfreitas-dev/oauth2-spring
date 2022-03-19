@@ -9,14 +9,13 @@ import org.springframework.security.oauth2.server.resource.authentication.JwtAut
 @EnableWebSecurity
 public class WebSecurity extends WebSecurityConfigurerAdapter{
 	
-	//Registrar o KeycloakConverter no SpringSecurity utilizando a classe JwtAuthenticationConverter e adicionando no método configure
-	JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
-	jwtAuthenticationConverter
-//	jwtConverter.setJwtGrantedAuthoritiesConverter(new KeycloakRoleConverter());
 	
 	
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
+		JwtAuthenticationConverter jwtAuthenticationConverter = new JwtAuthenticationConverter();
+		jwtAuthenticationConverter.setJwtGrantedAuthoritiesConverter(new KeycloakRoleConverter());
+
 		http.authorizeRequests()
 			.antMatchers(HttpMethod.GET, "/users/status/check")
 //				.hasAuthority("SCOPE_profile")
@@ -25,7 +24,8 @@ public class WebSecurity extends WebSecurityConfigurerAdapter{
 			.anyRequest().authenticated()
 			.and()
 			.oauth2ResourceServer()
-			.jwt();
+			.jwt()
+			.jwtAuthenticationConverter(jwtAuthenticationConverter);
 	}
 
 }
