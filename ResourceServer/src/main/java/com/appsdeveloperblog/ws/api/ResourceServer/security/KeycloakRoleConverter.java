@@ -15,6 +15,7 @@ import org.springframework.security.oauth2.jwt.Jwt;
 public class KeycloakRoleConverter implements Converter<Jwt, Collection<GrantedAuthority>>{
 
 	@Override
+	@SuppressWarnings("unchecked")
 	public Collection<GrantedAuthority> convert(Jwt jwt) {
 		Map<String, Object> realmAccess = (Map<String, Object>) jwt.getClaims().get("realm_access");
 		
