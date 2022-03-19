@@ -8,7 +8,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
 import org.springframework.security.oauth2.server.resource.authentication.JwtAuthenticationConverter;
 
 
-@EnableGlobalMethodSecurity(securedEnabled = true) //Habilitar o MethodLevelSecurity @Secured nos métodos e classes
+@EnableGlobalMethodSecurity(securedEnabled = true, prePostEnabled = true) //Habilitar o MethodLevelSecurity @Secured e @PreAuthorize nos métodos e classes
 @EnableWebSecurity
 public class WebSecurity extends WebSecurityConfigurerAdapter{
 	
