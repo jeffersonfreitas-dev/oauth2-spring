@@ -29,11 +29,11 @@ public class UserController {
 	}
 
 	
-	@PreAuthorize("hasRole('developer') or #id == #jwt.subject")
-	@DeleteMapping(path = "/{id}")
-	public String deleteBySubJWT (@PathVariable String id, @AuthenticationPrincipal Jwt jwt) {
-		return "Updated user with id " + id + " and JWT subject " + jwt.getSubject();
-	}
+//	@PreAuthorize("hasRole('developer') or #id == #jwt.subject")
+//	@DeleteMapping(path = "/sub/{id}")
+//	public String deleteBySubJWT (@PathVariable String id, @AuthenticationPrincipal Jwt jwt) {
+//		return "Updated user with id " + id + " and JWT subject " + jwt.getSubject();
+//	}
 
 
 	@PostAuthorize("#id == #jwt.subject") //Get os dados do proprio user
