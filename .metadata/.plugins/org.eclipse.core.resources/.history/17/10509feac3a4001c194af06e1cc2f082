@@ -1,5 +1,0 @@
-server.port=8081
-#Discovery Authorization Service (Keycloak) Keys to validate Access Token Assignature - Realms
-spring.security.oauth2.resourceserver.jwt.issuer-uri= http://localhost:8080/auth/realms/appsdeveloperblog
-#Public Key (Certificate) Keycloak to connect and validate access token
-spring.security.oauth2.resourceserver.jwt.jwk-set-uri=http://localhost:8080/auth/realms/appsdeveloperblog/protocol/openid-connect/certs

@@ -9411,3 +9411,601 @@ java.util.concurrent.TimeoutException
 
 !ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 21:52:23.827
 !MESSAGE executing callback sts4.classpath.iCpFcPzh SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 22:03:34.427
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iCpFcPzh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 22:03:34.428
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.iCpFcPzh
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 22:03:34.429
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-22 22:03:34.429
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.iCpFcPzh => OK
+!SESSION 2022-03-23 21:20:40.853 -----------------------------------------------
+eclipse.buildId=4.13.1.202201311654
+java.version=17.0.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2022-03-23 21:20:47.835
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-23 21:20:47.835
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@21f479cd,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@102fd71d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-23 21:20:47.835
+!MESSAGE A conflict occurred for ALT+SHIFT+R:
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,Rename - Refactoring ,
+		Rename the selected element,
+		Category(org.eclipse.jdt.ui.category.refactoring,Refactor - Java,Java Refactoring Actions,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@8e00c02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Rename,
+		Rename the selected item,
+		Category(org.eclipse.ui.category.file,File,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@464d60fb,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:20:56.072
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:20:56.073
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@308d453d[org.springframework.tooling.boot.ls:1.30.0.202201310805(id=564)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:20:56.080
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:20:56.366
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-23 21:20:58.065
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\jeffe'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.122
+!MESSAGE Boot LS startup time from start to initialized: 14027ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.250
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UIPtdfSXisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.255
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.260
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.261
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.262
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.263
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.UIPtdfSX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.309
+!MESSAGE classpath=121 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.318
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX ResourceServer false 121
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.319
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.330
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.339
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX Albums false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.340
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.360
+!MESSAGE classpath=143 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.370
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX ApiGateway false 143
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.371
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.383
+!MESSAGE classpath=130 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.392
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX EurekaService false 130
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.393
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.404
+!MESSAGE classpath=118 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.413
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX Photos false 118
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:10.414
+!MESSAGE executing callback sts4.classpath.UIPtdfSX 5 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:21:12.436
+!MESSAGE executing callback sts4.classpath.UIPtdfSX FAILED
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 4 0 2022-03-23 21:21:12.438
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.springframework.tooling.ls.eclipse.commons.LSP4ECommandExecutor.executeClientCommand(LSP4ECommandExecutor.java:37)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.flush(SendClasspathNotificationsJob.java:178)
+	at org.springframework.tooling.jdt.ls.commons.classpath.SendClasspathNotificationsJob.run(SendClasspathNotificationsJob.java:149)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-23 21:23:19.857
+!MESSAGE Unable to add org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4.pom
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-23 21:23:19.905
+!MESSAGE Unable to add org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2.pom
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-23 21:23:19.995
+!MESSAGE Unable to add com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19.pom
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.context.DefaultIndexingContext.setAllGroups(DefaultIndexingContext.java:823)
+	at org.apache.maven.index.DefaultIndexerEngine.updateGroups(DefaultIndexerEngine.java:172)
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:88)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:129)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-23 21:23:20.048
+!MESSAGE Unable to add com/nimbusds/content-type/2.1/content-type-2.1.pom
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-23 21:23:20.101
+!MESSAGE Unable to add com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2022-03-23 21:23:20.151
+!MESSAGE Unable to add org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4.pom
+!STACK 0
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:23.857
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:23.866
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:23.870
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX PhotoMVCWebApplication false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:23.871
+!MESSAGE executing callback sts4.classpath.UIPtdfSX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:24.991
+!MESSAGE executing callback sts4.classpath.UIPtdfSX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:25.611
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:25.620
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:25.625
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX PhotoMVCWebApplication false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:25.626
+!MESSAGE executing callback sts4.classpath.UIPtdfSX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:25.653
+!MESSAGE executing callback sts4.classpath.UIPtdfSX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:26.066
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:26.080
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:26.085
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX PhotoMVCWebApplication false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:26.086
+!MESSAGE executing callback sts4.classpath.UIPtdfSX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:26.129
+!MESSAGE executing callback sts4.classpath.UIPtdfSX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:34.151
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:34.160
+!MESSAGE classpath=87 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:34.165
+!MESSAGE buffering callback sts4.classpath.UIPtdfSX PhotoMVCWebApplication false 87
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:34.166
+!MESSAGE executing callback sts4.classpath.UIPtdfSX 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-03-23 21:23:34.199
+!MESSAGE executing callback sts4.classpath.UIPtdfSX SUCCESS [done]

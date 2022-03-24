@@ -3031,3 +3031,447 @@ java.net.URISyntaxException: Illegal character in path at index 35: file:/C:/Use
 2022-03-22 22:02:19,753 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-03-22 22:02:19,753 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
 2022-03-22 22:02:19,753 [Worker-23: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\ResourceServer\src\test\resources
+2022-03-23 21:20:57,934 [Worker-5: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2022-03-23 21:23:14,200 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.appsdeveloperblog.ws.api:PhotoMVCWebApplication:0.0.1-SNAPSHOT @ C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\PhotoMVCWebApplication\pom.xml.
+2022-03-23 21:23:15,300 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4.pom
+2022-03-23 21:23:15,553 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4.pom
+2022-03-23 21:23:15,827 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2.pom
+2022-03-23 21:23:15,986 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2.pom
+2022-03-23 21:23:16,165 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19.pom
+2022-03-23 21:23:16,340 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19.pom
+2022-03-23 21:23:16,505 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.pom
+2022-03-23 21:23:16,675 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.pom
+2022-03-23 21:23:16,868 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom
+2022-03-23 21:23:17,058 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom
+2022-03-23 21:23:17,231 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4.pom
+2022-03-23 21:23:17,401 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4.pom
+2022-03-23 21:23:17,583 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.pom
+2022-03-23 21:23:17,748 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.pom
+2022-03-23 21:23:17,897 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.pom
+2022-03-23 21:23:18,092 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.pom
+2022-03-23 21:23:18,452 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4.jar
+2022-03-23 21:23:18,585 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.jar
+2022-03-23 21:23:18,600 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar
+2022-03-23 21:23:18,620 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2.jar
+2022-03-23 21:23:18,795 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19.jar
+2022-03-23 21:23:18,812 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1.jar
+2022-03-23 21:23:18,813 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4.jar
+2022-03-23 21:23:18,813 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5.jar
+2022-03-23 21:23:19,188 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4.jar
+2022-03-23 21:23:19,188 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.jar
+2022-03-23 21:23:19,188 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar
+2022-03-23 21:23:19,451 [AetherRepositoryConnector-repo.maven.apache.org-0-3] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4.jar
+2022-03-23 21:23:19,522 [AetherRepositoryConnector-repo.maven.apache.org-0-0] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE.jar
+2022-03-23 21:23:19,522 [AetherRepositoryConnector-repo.maven.apache.org-0-1] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2.jar
+2022-03-23 21:23:19,624 [AetherRepositoryConnector-repo.maven.apache.org-0-2] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19.jar
+2022-03-23 21:23:19,773 [AetherRepositoryConnector-repo.maven.apache.org-0-4] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE.jar
+2022-03-23 21:23:19,856 [Worker-6: Import Getting Started Content] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4.pom
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-23 21:23:19,905 [Worker-6: Import Getting Started Content] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2.pom
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-23 21:23:19,994 [Worker-6: Import Getting Started Content] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19.pom
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.context.DefaultIndexingContext.setAllGroups(DefaultIndexingContext.java:823)
+	at org.apache.maven.index.DefaultIndexerEngine.updateGroups(DefaultIndexerEngine.java:172)
+	at org.apache.maven.index.DefaultIndexerEngine.update(DefaultIndexerEngine.java:88)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:129)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-23 21:23:20,047 [Worker-6: Import Getting Started Content] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/nimbusds/content-type/2.1/content-type-2.1.pom
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-23 21:23:20,099 [Worker-6: Import Getting Started Content] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add com/nimbusds/lang-tag/1.5/lang-tag-1.5.pom
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-23 21:23:20,150 [Worker-6: Import Getting Started Content] ERROR o.e.m.c.i.i.nexus.NexusIndexManager - Unable to add org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4.pom
+java.nio.file.AccessDeniedException: C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\.metadata\.plugins\org.eclipse.m2e.core\nexus\2c0418bebab12ee904bbea1b6dfbe05f\_60_Lucene50_0.doc
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:89)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newFileChannel(WindowsFileSystemProvider.java:121)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:298)
+	at java.base/java.nio.channels.FileChannel.open(FileChannel.java:357)
+	at org.apache.lucene.util.IOUtils.fsync(IOUtils.java:391)
+	at org.apache.lucene.store.FSDirectory.fsync(FSDirectory.java:288)
+	at org.apache.lucene.store.FSDirectory.sync(FSDirectory.java:232)
+	at org.apache.lucene.store.LockValidatingDirectoryWrapper.sync(LockValidatingDirectoryWrapper.java:62)
+	at org.apache.lucene.index.IndexWriter.startCommit(IndexWriter.java:4446)
+	at org.apache.lucene.index.IndexWriter.prepareCommitInternal(IndexWriter.java:2865)
+	at org.apache.lucene.index.IndexWriter.commitInternal(IndexWriter.java:2970)
+	at org.apache.lucene.index.IndexWriter.commit(IndexWriter.java:2935)
+	at org.apache.maven.index.context.DefaultIndexingContext.commit(DefaultIndexingContext.java:573)
+	at org.apache.maven.index.DefaultIndexer.addArtifactsToIndex(DefaultIndexer.java:132)
+	at org.apache.maven.index.DefaultNexusIndexer.addArtifactToIndex(DefaultNexusIndexer.java:347)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndexManager.addDocument(NexusIndexManager.java:613)
+	at org.eclipse.m2e.core.internal.index.nexus.NexusIndex.addArtifact(NexusIndex.java:82)
+	at org.eclipse.m2e.core.internal.index.nexus.IndexingTransferListener.artifactInstalled(IndexingTransferListener.java:35)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.notifyListeners(EclipseRepositoryListener.java:58)
+	at org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener.artifactDownloaded(EclipseRepositoryListener.java:44)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:121)
+	at org.eclipse.aether.internal.impl.DefaultRepositoryEventDispatcher.dispatch(DefaultRepositoryEventDispatcher.java:90)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.artifactDownloaded(DefaultArtifactResolver.java:693)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.evaluateDownloads(DefaultArtifactResolver.java:636)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.performDownloads(DefaultArtifactResolver.java:524)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolve(DefaultArtifactResolver.java:401)
+	at org.eclipse.aether.internal.impl.DefaultArtifactResolver.resolveArtifacts(DefaultArtifactResolver.java:229)
+	at org.eclipse.aether.internal.impl.DefaultRepositorySystem.resolveDependencies(DefaultRepositorySystem.java:340)
+	at org.apache.maven.project.DefaultProjectDependenciesResolver.resolve(DefaultProjectDependenciesResolver.java:202)
+	at org.apache.maven.project.DefaultProjectBuilder.resolveDependencies(DefaultProjectBuilder.java:227)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:200)
+	at org.apache.maven.project.DefaultProjectBuilder.build(DefaultProjectBuilder.java:124)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readMavenProject(MavenImpl.java:649)
+	at org.eclipse.m2e.core.internal.project.registry.DefaultMavenDependencyResolver.resolveProjectDependencies(DefaultMavenDependencyResolver.java:65)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:544)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.lambda$3(ProjectRegistryManager.java:508)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:506)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:358)
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:312)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.configureNewMavenProjects(ProjectConfigurationManager.java:269)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.lambda$0(ProjectConfigurationManager.java:178)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:182)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:156)
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:103)
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1416)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:148)
+	at org.eclipse.m2e.core.internal.project.ProjectConfigurationManager.importProjects(ProjectConfigurationManager.java:137)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy.createEclipseProjectFromExistingMavenProject(MavenStrategy.java:133)
+	at org.springframework.ide.eclipse.boot.wizard.importing.MavenStrategy$MavenCodeSetImport.run(MavenStrategy.java:84)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.importProject(NewSpringBootWizardModel.java:343)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizardModel.performFinish(NewSpringBootWizardModel.java:322)
+	at org.springframework.ide.eclipse.boot.wizard.NewSpringBootWizard$1.runInWorkspace(NewSpringBootWizard.java:229)
+	at org.eclipse.core.internal.resources.InternalWorkspaceJob.run(InternalWorkspaceJob.java:42)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+2022-03-23 21:23:22,278 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhotoMVCWebApplication/src/main/java
+2022-03-23 21:23:22,279 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PhotoMVCWebApplication/src/main/resources
+2022-03-23 21:23:22,293 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PhotoMVCWebApplication/src/main/resources
+2022-03-23 21:23:22,309 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhotoMVCWebApplication/src/test/java
+2022-03-23 21:23:23,027 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 10 sec
+2022-03-23 21:23:23,035 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2022-03-23 21:23:23,681 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.appsdeveloperblog.ws.api:PhotoMVCWebApplication:0.0.1-SNAPSHOT @ C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\PhotoMVCWebApplication\pom.xml.
+2022-03-23 21:23:23,746 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4-sources.jar
+2022-03-23 21:23:24,050 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-oauth2-client/2.6.4/spring-boot-starter-oauth2-client-2.6.4-sources.jar
+2022-03-23 21:23:24,174 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-oauth2-client:2.6.4
+2022-03-23 21:23:25,367 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2-sources.jar
+2022-03-23 21:23:25,613 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhotoMVCWebApplication/src/main/java
+2022-03-23 21:23:25,613 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PhotoMVCWebApplication/src/main/resources
+2022-03-23 21:23:25,615 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PhotoMVCWebApplication/src/main/resources
+2022-03-23 21:23:25,616 [Worker-6: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PhotoMVCWebApplication/src/test/java
+2022-03-23 21:23:25,994 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-oauth2-client/5.6.2/spring-security-oauth2-client-5.6.2-sources.jar
+2022-03-23 21:23:26,150 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.security:spring-security-oauth2-client:5.6.2
+2022-03-23 21:23:26,275 [Worker-6: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 3 sec
+2022-03-23 21:23:26,758 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19-sources.jar
+2022-03-23 21:23:27,375 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-23 21:23:27,375 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-23 21:23:27,382 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2022-03-23 21:23:27,408 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-23 21:23:27,415 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-23 21:23:27,416 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-23 21:23:27,416 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\jeffe\Desktop\ESTUDO SPRING\WORKFLOW\OAuth2\PhotoMVCWebApplication\src\test\resources
+2022-03-23 21:23:27,648 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/oauth2-oidc-sdk/9.19/oauth2-oidc-sdk-9.19-sources.jar
+2022-03-23 21:23:27,766 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:oauth2-oidc-sdk:9.19
+2022-03-23 21:23:28,339 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1-sources.jar
+2022-03-23 21:23:28,635 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/content-type/2.1/content-type-2.1-sources.jar
+2022-03-23 21:23:28,818 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:content-type:2.1
+2022-03-23 21:23:29,414 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5-sources.jar
+2022-03-23 21:23:29,709 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/nimbusds/lang-tag/1.5/lang-tag-1.5-sources.jar
+2022-03-23 21:23:29,871 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.nimbusds:lang-tag:1.5
+2022-03-23 21:23:30,440 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4-sources.jar
+2022-03-23 21:23:30,751 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/boot/spring-boot-starter-thymeleaf/2.6.4/spring-boot-starter-thymeleaf-2.6.4-sources.jar
+2022-03-23 21:23:30,886 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.springframework.boot:spring-boot-starter-thymeleaf:2.6.4
+2022-03-23 21:23:31,448 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE-sources.jar
+2022-03-23 21:23:31,924 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf-spring5/3.0.15.RELEASE/thymeleaf-spring5-3.0.15.RELEASE-sources.jar
+2022-03-23 21:23:32,233 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf:thymeleaf-spring5:3.0.15.RELEASE
+2022-03-23 21:23:32,834 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE-sources.jar
+2022-03-23 21:23:33,777 [Worker-3: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/thymeleaf/thymeleaf/3.0.15.RELEASE/thymeleaf-3.0.15.RELEASE-sources.jar
+2022-03-23 21:23:33,865 [Worker-3: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.thymeleaf:thymeleaf:3.0.15.RELEASE
+2022-03-23 21:23:34,312 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-03-23 21:23:34,312 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2022-03-23 21:23:34,313 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-03-23 21:23:34,314 [Worker-0: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
