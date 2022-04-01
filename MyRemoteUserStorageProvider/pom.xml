@@ -34,7 +34,7 @@
 			<groupId>org.keycloak</groupId>
 			<artifactId>keycloak-server-spi</artifactId>
 			<version>11.0.3</version>
-			<scope>provider</scope>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
@@ -47,7 +47,7 @@
 			<groupId>org.keycloak</groupId>
 			<artifactId>keycloak-services</artifactId>
 			<version>11.0.3</version>
-			<scope>provider</scope>
+			<scope>provided</scope>
 		</dependency>
 
 		<dependency>
@@ -76,20 +76,21 @@
 	</dependencies>
 
 	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-				<configuration>
-					<excludes>
-						<exclude>
-							<groupId>org.projectlombok</groupId>
-							<artifactId>lombok</artifactId>
-						</exclude>
-					</excludes>
-				</configuration>
-			</plugin>
-		</plugins>
+		<finalName>my-remote-mysql-user-storage-provider</finalName>
+<!-- 		<plugins> -->
+<!-- 			<plugin> -->
+<!-- 				<groupId>org.springframework.boot</groupId> -->
+<!-- 				<artifactId>spring-boot-maven-plugin</artifactId> -->
+<!-- 				<configuration> -->
+<!-- 					<excludes> -->
+<!-- 						<exclude> -->
+<!-- 							<groupId>org.projectlombok</groupId> -->
+<!-- 							<artifactId>lombok</artifactId> -->
+<!-- 						</exclude> -->
+<!-- 					</excludes> -->
+<!-- 				</configuration> -->
+<!-- 			</plugin> -->
+<!-- 		</plugins> -->
 	</build>
 
 </project>
